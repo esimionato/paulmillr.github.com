@@ -1,0 +1,13 @@
+---
+layout: base-comments
+---
+
+<section class="cell big">
+  <h3><a href="{{ page.url }}">{{ page.title }}</a></h3>
+  <section class="post-date">{{ page.date | date: "%d %B %y" }}</section>
+  <section class="post-content">
+    {{ content }}
+  </section>
+  <div class="page-comments">
+  </div>
+</section>

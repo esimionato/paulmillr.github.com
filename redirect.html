@@ -1,0 +1,26 @@
+<script>
+(function() {
+var newDomain = 'http://paulmillr.com/';
+var urlMap = {
+  'post/2810598472/notes-about-hackintosh-install': '2011/01/18/notes-about-hackintosh-install.html',
+  'post/2873882667/mac-app-store-fix-one-moment-please': '2011/01/25/solving-one-moment-please-in-mac-app-store.html',
+  'post/2932170977/useful-mac-os-x-commands': '2011/02/01/useful-mac-os-x-commands.html',
+  'post/5078147450/description-of-popular-software-licenses': '2011/03/15/simple-description-of-popular-software-licenses.html',
+  'post/7462957559/moving-blog-to-github': '2011/07/19/moving-from-tumblr-to-github.html',
+  'about': 'about.html'
+};
+var url, newUrl;
+var current = window.location.search.split('?url=').pop();
+
+for (url in urlMap) {
+  newUrl = urlMap[url];
+
+  if ('/' + url === current) {
+    window.location = newDomain + newUrl
+    return;
+  }
+}
+
+window.location = newDomain;
+})();
+</script>

@@ -1,0 +1,25 @@
+---
+layout: nil
+---
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+ <title>Paul Miller's blog</title>
+ <link href="http://paulmillr.com/feed.rss" rel="self"/>
+ <link href="http://paulmillr.com/"/>
+ <updated>{{ site.time | date_to_xmlschema }}</updated>
+ <id>http://paulmillr.com/</id>
+ <author>
+   <name>Paul Miller</name>
+   <email>paulpmillr@gmail.com</email>
+ </author>
+
+ {% for post in site.posts %}
+ <entry>
+   <title>{{ post.title }}</title>
+   <link href="http://paulmillr.com{{ post.url }}"/>
+   <updated>{{ post.date | date_to_xmlschema }}</updated>
+   <id>{{ post.url }}</id>
+   <content type="html">{{ post.content | xml_escape }}</content>
+ </entry>
+ {% endfor %}
+</feed>

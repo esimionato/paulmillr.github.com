@@ -1,0 +1,39 @@
+#!/usr/bin/env scala
+!#
+/* Created by Paul Miller on 2011-07-08. */
+
+import java.io.FileWriter
+import java.text.SimpleDateFormat
+import java.util.Calendar
+import scala.sys.process.Process
+
+
+if (args.isEmpty) {
+  println("Usage: newpost 'the post title'")
+  System.exit(1)
+}
+
+val dir = "/Users/paul/Documents/code/paulmillr.github.com/_posts/"
+
+val today = Calendar.getInstance().getTime()
+def getDate(format: String) = (new SimpleDateFormat(format)).format(today)
+
+val datePrefix = getDate("yyyy-MM-dd")
+val postName = args.mkString(" ")
+val postFileName = postName.trim.toLowerCase.replace(" ", "-")
+val postPath = dir + datePrefix + "-" + postFileName + ".md"
+
+val header = """---
+name: %1$s
+layout: post
+title: %2$s
+---
+
+Write the "%2$s" content here...
+""".format(postFileName, postName)
+
+val fw = new FileWriter(postPath)
+fw.write(header)
+fw.close()
+
+Process("mate -a " + postPath)!  // Open new post in TextMate.
