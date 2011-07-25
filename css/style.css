@@ -531,7 +531,9 @@ footer {
     width: auto;
     margin: 0 10px; }
     #container > header, #container > #main {
-      margin-right: -10px; }
+      margin-right: 0; }
+  .tag-bar {
+    margin: 0; }
   .cell, .cell.big {
     float: none;
     width: auto;
