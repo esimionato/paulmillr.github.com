@@ -530,13 +530,13 @@ footer {
   #container {
     width: auto;
     margin: 0 10px; }
-  #main {
+    #container > header, #container > #main {
+      margin-right: -10px; }
+  .cell, .cell.big {
+    float: none;
+    width: auto;
+     height: auto;
     margin-right: 0; }
-    .cell, .cell.big {
-      float: none;
-      width: auto;
-      height: auto;
-      margin-right: 0; }
   .post-content img {
     max-width: 100%; }
 }
