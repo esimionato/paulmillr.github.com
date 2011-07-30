@@ -422,6 +422,11 @@ nav {
 .cell.big {
   width: 930px;
   height: auto; }
+.cell.nopadding {
+  width: 495px;
+  height: 565px;
+  padding: 0;
+}
 
 .author-photo {
   float: left;
@@ -532,6 +537,8 @@ footer {
     margin: 0 10px; }
     #container > header, #container > #main {
       margin-right: 0; }
+    header > .cell {
+      margin-top: 10px; }
   .tag-bar {
     margin: 0; }
   .cell, .cell.big {

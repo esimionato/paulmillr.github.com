@@ -15,7 +15,8 @@ layout: base
   <div id="disqus_thread"></div>
 </section>
 <script type="text/javascript">
-  var disqus_url = document.location.origin + document.location.pathname;
+  var loc = document.location;
+  var disqus_url = loc.protocol + '//' + loc.host + loc.pathname;
   var disqus_title = '{{ page.title }}';
   /**
     * var disqus_identifier; [Optional but recommended: Define a unique identifier (e.g. post id or slug) for this thread] 
