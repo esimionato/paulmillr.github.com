@@ -540,8 +540,8 @@ footer {
     header > .cell {
       margin-top: 10px; }
   .tag-bar {
-    margin: 0; }
-  .cell, .cell.big {
+    margin: 0 0 10px 0; }
+  .cell, .cell.big, .cell.nopadding {
     float: none;
     width: auto;
      height: auto;
