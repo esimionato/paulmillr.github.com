@@ -342,7 +342,7 @@ aside {
   height: 250px;
   margin: 0 10px 10px 0;
   padding: 21px 25px;
-  background: white url("../img/logo-aside-orange.png") no-repeat 0 bottom; }
+  background: #fff url("../img/logo-aside-orange.png") no-repeat 0 bottom; }
   aside h3 {
     font-size: 40px;
     margin-bottom: 10px;
@@ -376,7 +376,7 @@ nav {
   nav .navigation-list {
     display: none;
     width: 148px;
-    text-align: left }
+    text-align: left; }
     nav a, nav a:visited {
       font-style: normal;
       display: block;
@@ -399,7 +399,7 @@ nav {
     line-height: 140px;
     text-transform: uppercase;
     margin: 0 36px;
-    color: white; }
+    color: #fff; }
 
 #logo {
   background-image: url("../img/logo.png"); }
@@ -425,8 +425,7 @@ nav {
 .cell.nopadding {
   width: 495px;
   height: 565px;
-  padding: 0;
-}
+  padding: 0; }
 
 .author-photo {
   float: left;
@@ -452,7 +451,7 @@ nav {
       display: block;
       float: left;
       text-transform: uppercase;
-      color: white; }
+      color: #fff; }
 
 pre {
   font-size: 13px;
@@ -544,7 +543,7 @@ footer {
   .cell, .cell.big, .cell.nopadding {
     float: none;
     width: auto;
-     height: auto;
+    height: auto;
     margin-right: 0; }
   .post-content img {
     max-width: 100%; }
