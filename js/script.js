@@ -19,6 +19,6 @@
     }
   };
   $(function() {
-    if (window.config.useSidebar) return sidebar.init();
+    if (window.useSidebar) return sidebar.init();
   });
 }).call(this);

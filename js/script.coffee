@@ -14,4 +14,4 @@ sidebar =
 
 
 $ ->
-  sidebar.init() if window.config.useSidebar
+  sidebar.init() if window.useSidebar
