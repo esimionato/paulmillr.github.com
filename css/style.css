@@ -335,7 +335,8 @@ h3 {
 header > .cell > p {
   margin: 0; }
 .header-summary {
-  position: absolute; }
+  position: absolute;
+  padding: 3px 0; }
 .header-links {
   float: right; }
 .header-link {
