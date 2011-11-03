@@ -1,6 +1,7 @@
 --- 
 layout: post
 title: Simple description of popular software licenses
+hackernews: http://news.ycombinator.com/item?id=2501536
 ---
 
 Just made a simple description of popular free software licenses.

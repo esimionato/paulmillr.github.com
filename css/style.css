@@ -501,6 +501,15 @@ footer {
 #disqus_thread h3 {
   font-size: 30px; }
 
+.page-links {
+  min-height: 64px; }
+  .hackernews-info {
+    position: absolute;
+    margin-right: 100px; }
+  .twitter-link {
+    float: right;
+    margin-left: 75px; }
+
 
 /* =============================================================================
    Non-semantic helper classes
