@@ -1,2 +1,4 @@
 pygments: true
 title: Paul Miller
+permalink: /posts/:title
+auto: true

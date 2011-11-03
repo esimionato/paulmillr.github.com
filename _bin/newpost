@@ -1,6 +1,5 @@
 #!/usr/bin/env scala
 !#
-/* Created by Paul Miller on 2011-07-08. */
 
 import java.io.FileWriter
 import java.text.SimpleDateFormat

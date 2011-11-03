@@ -326,7 +326,7 @@ h2 {
   color: #f60; }
 
 h3 {
-  font-size: 70px;
+  font-size: 53pt;
   margin: 0 0 26px 0; }
 
 .cell h3 {
@@ -334,6 +334,15 @@ h3 {
 
 header > .cell > p {
   margin: 0; }
+.header-summary {
+  position: absolute; }
+.header-links {
+  float: right; }
+.header-link {
+  float: left; }
+  .header-link-image {
+    width: 32px;
+    height: 32px; }
 
 aside {
   position: relative;
