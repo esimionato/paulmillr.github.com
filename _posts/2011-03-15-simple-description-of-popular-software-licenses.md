@@ -6,9 +6,7 @@ hackernews: http://news.ycombinator.com/item?id=2501536
 
 Just made a simple description of popular free software licenses.
 
-<a href="/media{{ page.id }}/open-source-licenses-en.png">
-  <img src="/media{{ page.id }}/open-source-licenses-en.png" alt="Licenses">
-</a>
+[![Licenses](/media{{ page.id }}/open-source-licenses-en.png)](/media{{ page.id }}/open-source-licenses-en.png)
 [Russian version](/media{{ page.id }}/open-source-licenses-ru.png)
 
 Editable variants (you'll need OmniGraffle to edit them):
