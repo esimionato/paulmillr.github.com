@@ -17,7 +17,7 @@ layout: base
   </section>
 </section>
 <section class="cell">
-  <h3>Recent posts &amp; talks <small><a href="/posts.rss">(rss)</a></small></h3>
+  <h3>Posts &amp; talks <small><a href="/posts.rss">(rss)</a></small></h3>
   <ul class="post-list">
     {% for post in site.posts %}
       <li>{{ post.date | date: "%d %b %y" }} » <a href="{{ post.url }}">{{ post.title }}</a></li>
