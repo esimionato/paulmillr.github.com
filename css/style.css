@@ -569,6 +569,8 @@ footer {
     margin-right: 0; }
   .post-content img {
     max-width: 100%; }
+  .talk-wrap {
+    max-width: 650px; }
 }
 
 
