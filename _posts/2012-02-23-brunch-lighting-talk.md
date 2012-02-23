@@ -1,6 +1,6 @@
 --- 
 layout: post
-title: Simple description of popular software licenses
+title: Brunch lighting talk
 ---
 
 My little presentation from lighting talk at JSGroup 2012
