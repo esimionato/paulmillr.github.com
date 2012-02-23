@@ -1,6 +1,6 @@
 --- 
 layout: post
-title: Brunch lighting talk
+title: Brunch lightning talk
 ---
 
 My little presentation from lighting talk at JSGroup 2012.
