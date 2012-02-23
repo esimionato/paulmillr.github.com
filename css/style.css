@@ -499,6 +499,9 @@ footer {
 .post-content img {
   max-width: 930px; }
 
+.talk-wrap {
+  max-width: 650px; }
+
 #disqus_thread h3 {
   font-size: 30px; }
 
