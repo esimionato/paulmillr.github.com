@@ -13,5 +13,3 @@ Editable variants (you'll need OmniGraffle to edit them):
 
 * [English](/media{{ page.id }}/open-source-licenses-en.graffle)
 * [Russian](/media{{ page.id }}/open-source-licenses-ru.graffle)
-
-The pictures are licensed under [CC BY-SA 3.0](http://creativecommons.org/licenses/by-sa/3.0/), so you could share & remix it for free.
