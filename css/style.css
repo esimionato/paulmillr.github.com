@@ -436,6 +436,9 @@ nav {
   height: 565px;
   padding: 0; }
 
+.projects > ul {
+  padding-left: 20px; }
+
 .author-photo {
   float: left;
   margin-right: 10px; }
